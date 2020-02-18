@@ -55,7 +55,7 @@ jobs:
     executor: node_executor
     steps:
       - node_bootstrap
-      - run: yarn run jest
+      - run: yarn jest
 
 workflows:
   version: 2
