@@ -1,6 +1,6 @@
 const { NODE_ENV = 'development' } = process.env
 
-const isDev = NODE_ENV === 'dev'
+const isDev = NODE_ENV === 'development'
 const isProd = NODE_ENV === 'production'
 const isTest = NODE_ENV === 'test'
 
