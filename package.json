@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint:fix": "yarn lint --fix",
     "lint:package": "prettier-package-json --write package.json",
     "release": "standard-version",
     "postrelease": "git push --follow-tags && yarn publish --non-interactive --access public",
