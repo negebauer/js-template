@@ -18,7 +18,9 @@
     "release": "standard-version",
     "postrelease": "git push --follow-tags && yarn publish --non-interactive --access public",
     "start": "NODE_ENV=production node src/index.js",
-    "test": "jest --watch"
+    "test": "jest",
+    "test:dev": "yarn test --watch",
+    "test:coverage": "yarn test --coverage"
   },
   "dependencies": {},
   "devDependencies": {
