@@ -55,7 +55,11 @@ jobs:
     executor: node_executor
     steps:
       - node_bootstrap
-      - run: yarn test
+      - run: yarn test:coverage
+      - store_artifacts:
+          path: coverage
+      - store_test_results:
+          path: test-results
 
 workflows:
   version: 2
