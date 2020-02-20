@@ -23,7 +23,7 @@ A js project template.
 - coveralls: For reporting code coverage changes
 
 <!-- Badges -->
-[circleci_badge]:https://img.shields.io/circleci/build/github/negebauer/js-template?token=c7d8b663cadf1c13b681e91c4c3ae48e0ece60ce
+[circleci_badge]:https://img.shields.io/circleci/build/github/negebauer/js-template
 [circleci_url]:https://circleci.com/gh/negebauer/js-template
 
 [coveralls_badge]:https://coveralls.io/repos/github/negebauer/js-template/badge.svg?branch=master
