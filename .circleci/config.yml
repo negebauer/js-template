@@ -56,6 +56,7 @@ jobs:
     steps:
       - node_bootstrap
       - run: yarn test:coverage
+      - run: yarn test:coverage:upload
       - store_artifacts:
           path: coverage
       - store_test_results:
