@@ -20,6 +20,7 @@
     "start": "NODE_ENV=production node src/index.js",
     "test": "jest",
     "test:coverage": "yarn test --coverage",
+    "test:coverage:upload": "cat coverage/lcov.info | coveralls",
     "test:dev": "yarn test --watch"
   },
   "dependencies": {},
