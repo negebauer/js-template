@@ -20,6 +20,7 @@ A js project template.
 
 - ci: Configured to run in CircleCI
 - `config.js`: File where env variables are loaded
+- coveralls: For reporting code coverage changes
 
 <!-- Badges -->
 [circleci_badge]:https://img.shields.io/circleci/build/github/negebauer/js-template?token=c7d8b663cadf1c13b681e91c4c3ae48e0ece60ce
