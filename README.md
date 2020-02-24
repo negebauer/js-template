@@ -1,7 +1,7 @@
 # @negebauer/js-template
 
-[![CircleCI][circleci_badge]][circleci_url]
-[![Coveralls][coveralls_badge]][coveralls_url]
+[![circleci_badge]][circleci_url]
+[![coveralls_badge]][coveralls_url]
 
 A js project template.
 
