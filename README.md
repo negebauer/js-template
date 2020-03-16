@@ -8,9 +8,9 @@ A js project template.
 ## Libraries
 
 - eslint: Linter
-  - @negebauer/eslint-config-base: My base linter config
+  - [@negebauer/eslint-config-base](https://github.com/negebauer/eslint-config): My base linter config
 - prettier: For formatting code
-  - @negebauer/prettier-config: My prettier config
+  - [@negebauer/prettier-config](https://github.com/negebauer/prettier-config): My prettier config
 - jest: For running tests
 - nodemon: For development
 - prettier-package-json: For formatting package.json
